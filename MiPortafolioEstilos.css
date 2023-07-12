@@ -1,0 +1,450 @@
+body{
+    background: black;
+    margin: 0;
+}
+
+/*ACA COMIENZA EL CODIGO DEL HEADER*/
+header{
+    background: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 800;
+}
+
+header img{
+    height: 100px;
+}
+
+header button{
+    color: white;
+    font-size: 100%;
+    background: transparent;
+    border: none;
+    height: 40%;
+}
+
+header button:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+    border-radius: 5px;
+}
+/*ACA TERMINA EL CODIGO DEL HEADER*/
+
+
+/*ACA COMIENZA EL CODIGO DEL MAIN*/
+#principal{
+    height: 100%;
+}
+
+#nombre{
+    color: white;  
+    padding: 10% 10%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#nombre h1{
+    font-size: 300%;
+}
+
+#nombre .elemento{
+    margin: 1%;
+}
+
+#desarrollador{
+    color: #0711FF;
+}
+
+#nombre button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: #0711FF;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#nombre button:hover{
+    cursor: pointer;
+    background: #2ec7ff;
+    box-shadow: 0px 0px 15px 5px #00c8ff;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+#acerca-de-mi{
+    display: flex;
+    height: 100%;
+}
+
+#acerca-de-mi p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#acerca-de-mi img{
+    width: 436px;
+    height: 436px;
+    border-radius: 10px;
+}
+
+#informacion-personal, #foto-de-perfil{
+    width: 40%;
+    margin: 10% 8%;
+}
+
+#informacion-personal h1, p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#informacion-personal h1{
+    font-size: 200%;
+}
+
+#proyectos{
+    height: auto;
+}
+
+#proyectos-titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    background: black;
+}
+
+#web-yeda, #web-snake, #web-calculadora,  #web-planetas, #web-perros, #web-conecta, #web-ciudades{
+    display: flex;
+    width: 100%;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.carousel-container, .carousel-container-snake, .carousel-container-calculadora, .carousel-container-planetas, .carousel-container-perros, .carousel-container-conecta, .carousel-container-ciudades{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.carousel-slide, .carousel-slide-snake, .carousel-slide-calculadora, .carousel-slide-planetas, .carousel-slide-perros, .carousel-slide-conecta, .carousel-slide-ciudades{
+    width: 100%;
+    display: flex;
+    transition: transform 2s ease-in-out;
+}
+
+.carousel-slide img, .carousel-slide-snake img, .carousel-slide-calculadora img, .carousel-slide-planetas img, .carousel-slide-perros img, .carousel-slide-conecta img, .carousel-slide-ciudades img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#web-yeda-1, #web-snake-1, #web-calculadora-1, #web-planetas-1, #web-perros-1, #web-conecta-1, #web-ciudades-1{
+    width: 40%;
+}
+
+#web-yeda-1 button, #web-snake-1 button, #web-calculadora-1 button, #web-planetas-1 button, #web-perros-1 button, #web-conecta-1 button, #web-ciudades-1 button{
+    background-color: #0711FF;
+    font-family: 'Fjalla One', sans-serif;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+#web-yeda-1 button:hover, #web-snake-1 button:hover, #web-calculadora-1 button:hover, #web-planetas-1 button:hover, #web-perros-1 button:hover, #web-conecta-1 button:hover, #web-ciudades-1 button:hover{
+    cursor: pointer;
+    background: #2ec7ff;
+    box-shadow: 0px 0px 15px 5px #00c8ff;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+#habilidades, #certificados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades h1, #certificados h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+#container-titulo-hbailidades, #container-titulo-certificados{
+    width: 100%;
+}
+
+#container-habilidades{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container-certificados{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container-habilidades img, #container-certificados img{
+    width: 31%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    border: solid 2px rgb(1, 22, 255);
+}
+
+#container-habilidades img:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: transform 1s;
+}
+
+#container-certificados img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+#container-certificados img:active{
+    transform: scale(2);
+    
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto h1{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 200%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#container-contacto{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container-contacto div{
+    width: 31%;
+    background: #545454;
+    margin-top: 2%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px blue;
+}
+
+#container-contacto div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.8s;
+    border: solid 3px rgb(255, 233, 39);
+}
+
+.a-contacto{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80%;
+}
+
+#container-contacto img{
+    width: 95%;
+}
+
+/*ACA TERMINA EL CODIGO DEL MAIN*/
+
+
+@media screen and (max-width: 768px) {
+    header{
+        background: black;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 800;
+        width: 100vw;
+    }
+    
+    header div{
+        height: 50%;
+    }
+
+    #secciones{
+        margin: 0 4%;
+    }
+
+    header img{
+        height: 100%;
+    }
+    
+    header button{
+        height: 50%;
+    }
+    
+    #principal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 50%;
+    }
+
+    #acerca-de-mi{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    
+    #acerca-de-mi img{
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+    
+    #informacion-personal, #foto-de-perfil{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2%;
+    }
+    
+    #proyectos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    #proyectos-titulo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+        background: black;
+        margin-top: 15%;
+    }
+    
+    #web-yeda, #web-snake, #web-calculadora, #web-planetas, #web-conecta, #web-perros, #web-ciudades{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    #web-yeda{
+        margin-top: 1%;
+    }
+
+    #web-calculadora, #web-conecta, #web-ciudades{
+        flex-direction: column-reverse;
+    }
+    
+    .carousel-container, .carousel-container-snake, .carousel-container-calculadora, .carousel-container-planetas, .carousel-container-conecta, .carousel-container-perros, .carousel-container-ciudades{
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    
+    .carousel-slide, .carousel-slide-snake, .carousel-slide-calculadora, .carousel-slide-planetas, .carousel-slide-conecta, .carousel-slide-perros, .carousel-slide-ciudades{
+        width: 100%;
+        display: flex;
+        transition: transform 2s ease-in-out;
+    }
+        
+    #web-yeda-1, #web-snake-1, #web-calculadora-1, #web-planetas-1, #web-conecta-1, #web-perros-1, #web-ciudades-1{
+        width: 95%;
+    }
+    
+
+    #habilidades h1, #certificados h1{
+        font-size: 120%;
+    }
+
+    #container-habilidades{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #container-certificados{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #container-habilidades img, #container-certificados img{
+        width: 45%;
+        margin-bottom: 3%;
+        border-radius: 10px;
+        border: solid 2px rgb(1, 22, 255);
+    }
+  
+    #contacto h1{
+        font-size: 150%;
+    }
+    
+    #container-contacto{
+        width: 100%;
+    }
+    
+    #container-contacto div{
+        width: 48%;
+    }
+        
+    .a-contacto{
+        font-size: 60%;
+    }
+    
+}
+
