@@ -285,3 +285,29 @@ function startCarousel7() {
 
 startCarousel7();
 //ACA TERMINA CODIGO DEL CARRUSEL DE IMAGENES DE LA PAGINA DE CIUDADES//
+
+
+//ACA COMIENZA CODIGO DEL CARRUSEL DE IMAGENES DE LA PAGINA DE APARTAMENTOS//
+const carouselContainer8 = document.querySelector('.carousel-container-apartamentos');
+const carouselSlide8 = document.querySelector('.carousel-slide-apartamentos');
+
+let slideIndex8 = 0;
+
+function showSlide8(index) {
+  carouselSlide8.style.transform = `translateX(${-index * 100}%)`;
+}
+
+function nextSlide8() {
+  slideIndex8++;
+  if (slideIndex8 >= carouselSlide8.children.length) {
+    slideIndex8 = 0;
+  }
+  showSlide8(slideIndex8);
+}
+
+function startCarousel8() {
+  setInterval(nextSlide8, 5000); 
+}
+
+startCarousel8();
+//ACA TERMINA CODIGO DEL CARRUSEL DE IMAGENES DE LA PAGINA DE APARTAMENTOS//
