@@ -119,7 +119,7 @@ header button:hover{
     background: black;
 }
 
-#web-yeda, #web-snake, #web-calculadora,  #web-planetas, #web-perros, #web-conecta, #web-ciudades{
+#web-yeda, #web-snake, #web-calculadora,  #web-planetas, #web-perros, #web-conecta, #web-ciudades, #web-apartamentos{
     display: flex;
     width: 100%;
     font-family: 'Fjalla One', sans-serif;
@@ -128,7 +128,7 @@ header button:hover{
     margin-top: 8%;
 }
 
-.carousel-container, .carousel-container-snake, .carousel-container-calculadora, .carousel-container-planetas, .carousel-container-perros, .carousel-container-conecta, .carousel-container-ciudades{
+.carousel-container, .carousel-container-snake, .carousel-container-calculadora, .carousel-container-planetas, .carousel-container-perros, .carousel-container-conecta, .carousel-container-ciudades, .carousel-container-apartamentos{
     overflow: hidden;
     position: relative;
     display: flex;
@@ -137,23 +137,23 @@ header button:hover{
     width: 40%;
 }
 
-.carousel-slide, .carousel-slide-snake, .carousel-slide-calculadora, .carousel-slide-planetas, .carousel-slide-perros, .carousel-slide-conecta, .carousel-slide-ciudades{
+.carousel-slide, .carousel-slide-snake, .carousel-slide-calculadora, .carousel-slide-planetas, .carousel-slide-perros, .carousel-slide-conecta, .carousel-slide-ciudades, .carousel-slide-apartamentos{
     width: 100%;
     display: flex;
     transition: transform 2s ease-in-out;
 }
 
-.carousel-slide img, .carousel-slide-snake img, .carousel-slide-calculadora img, .carousel-slide-planetas img, .carousel-slide-perros img, .carousel-slide-conecta img, .carousel-slide-ciudades img{
+.carousel-slide img, .carousel-slide-snake img, .carousel-slide-calculadora img, .carousel-slide-planetas img, .carousel-slide-perros img, .carousel-slide-conecta img, .carousel-slide-ciudades img, .carousel-slide-apartamentos img{
     width: 100%;
     height: 300px;
     border-radius: 10px;
 }
 
-#web-yeda-1, #web-snake-1, #web-calculadora-1, #web-planetas-1, #web-perros-1, #web-conecta-1, #web-ciudades-1{
+#web-yeda-1, #web-snake-1, #web-calculadora-1, #web-planetas-1, #web-perros-1, #web-conecta-1, #web-ciudades-1, #web-apartamentos-1{
     width: 40%;
 }
 
-#web-yeda-1 button, #web-snake-1 button, #web-calculadora-1 button, #web-planetas-1 button, #web-perros-1 button, #web-conecta-1 button, #web-ciudades-1 button{
+#web-yeda-1 button, #web-snake-1 button, #web-calculadora-1 button, #web-planetas-1 button, #web-perros-1 button, #web-conecta-1 button, #web-ciudades-1 button, #web-apartamentos-1 button{
     background-color: #0711FF;
     font-family: 'Fjalla One', sans-serif;
     border: none;
@@ -162,7 +162,7 @@ header button:hover{
     border-radius: 10px;
 }
 
-#web-yeda-1 button:hover, #web-snake-1 button:hover, #web-calculadora-1 button:hover, #web-planetas-1 button:hover, #web-perros-1 button:hover, #web-conecta-1 button:hover, #web-ciudades-1 button:hover{
+#web-yeda-1 button:hover, #web-snake-1 button:hover, #web-calculadora-1 button:hover, #web-planetas-1 button:hover, #web-perros-1 button:hover, #web-conecta-1 button:hover, #web-ciudades-1 button:hover, #web-apartamentos-1 button:hover{
     cursor: pointer;
     background: #2ec7ff;
     box-shadow: 0px 0px 15px 5px #00c8ff;
@@ -364,7 +364,7 @@ header button:hover{
         margin-top: 15%;
     }
     
-    #web-yeda, #web-snake, #web-calculadora, #web-planetas, #web-conecta, #web-perros, #web-ciudades{
+    #web-yeda, #web-snake, #web-calculadora, #web-planetas, #web-conecta, #web-perros, #web-ciudades, #web-apartamentos{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -379,11 +379,11 @@ header button:hover{
         margin-top: 1%;
     }
 
-    #web-calculadora, #web-conecta, #web-ciudades{
+    #web-calculadora, #web-conecta, #web-ciudades, #web-snake{
         flex-direction: column-reverse;
     }
     
-    .carousel-container, .carousel-container-snake, .carousel-container-calculadora, .carousel-container-planetas, .carousel-container-conecta, .carousel-container-perros, .carousel-container-ciudades{
+    .carousel-container, .carousel-container-snake, .carousel-container-calculadora, .carousel-container-planetas, .carousel-container-conecta, .carousel-container-perros, .carousel-container-ciudades, .carousel-container-apartamentos{
         overflow: hidden;
         position: relative;
         display: flex;
@@ -392,13 +392,13 @@ header button:hover{
         width: 95%;
     }
     
-    .carousel-slide, .carousel-slide-snake, .carousel-slide-calculadora, .carousel-slide-planetas, .carousel-slide-conecta, .carousel-slide-perros, .carousel-slide-ciudades{
+    .carousel-slide, .carousel-slide-snake, .carousel-slide-calculadora, .carousel-slide-planetas, .carousel-slide-conecta, .carousel-slide-perros, .carousel-slide-ciudades, .carousel-slide-apartamentos{
         width: 100%;
         display: flex;
         transition: transform 2s ease-in-out;
     }
         
-    #web-yeda-1, #web-snake-1, #web-calculadora-1, #web-planetas-1, #web-conecta-1, #web-perros-1, #web-ciudades-1{
+    #web-yeda-1, #web-snake-1, #web-calculadora-1, #web-planetas-1, #web-conecta-1, #web-perros-1, #web-ciudades-1, #web-apartamentos-1{
         width: 95%;
     }
     
